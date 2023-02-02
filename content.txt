@@ -1,0 +1,69 @@
+Sobre mi
+HTML5
+Hi ^^ im Mario González (M4R10GDS)
+I’m a software developer and passionate about cybersecurity.
+I am currently studying Software Engineering but I’ll graduate this year.
+
+I enjoy leraning and coding my own scripts in the process.
+
+Habilidades
+
+Python
+Bash scripting
+C++
+Java
+
+Javascript (Jquery)
+Node
+HTML5
+CSS
+
+Javascript
+SQL
+MongoDB
+
+
+In my free time I usually practice on [Hack the Box] website learning cybersecurity.
+Feel free to check out my [HTB profile] (Still in process to become a big White Hat)^^.
+
+Proyectos
+
+-- GIW-MiniBruteForce
+In my fourth year of college I studied GIW (Gestión de la información Web). We learned about web services on the client and server side.
+One of the last topics of the subject was the data encryption. In order to understand it better I did the following exercises.
+
+[Enunciado del ejercicio 1] --- Enlace al script
+
+[Enunciado del ejercicio 2] --- Enlace al script
+
+-- extractPorts
+When I need to use [Nmap tool] to scan a network, I always want to store all the info in a file to access that information easily.
+For that reason I have coded this bash script that greps all the open ports of a host and then copied to te clipboard.
+
+[Simbolo github al repo]
+[Imagen del script]
+
+-- Handmade RubberDucky
+One of my latest projects was a handmade [RubberDucky] with a [Raspberry Pi Pico].
+To convert the Raspbi into a RubberDucky I followed the [pico-ducky Githhub tutorial].
+
+Here is an example to see how the device works:
+
+[Video si puedo]
+[Imagen del dispositivo/pequeño carrusel]
+
+-- TODO
+[DONE]  Borde y efecto de iluminación a la imagen de perfil.
+[DONE]  Efecto de aparición skills
+        Efecto hover sobre cada skill -> Nombre de la tecnología y grado de avance
+        Añadir imagen de bootstrap a las skills de front y cambiar de skills_cards a skills_cards4
+[DONE]  Footer con "realizado por []"
+        Referenciar los links
+
+        Hacer y subir el video a youtube y referenciarlo.
+[DONE]  Hacer que los elementos de la navbar salten al apartado correcto con Jquery.
+        Efecto animado background.
+        Efectos a los links (hover con mas cosas)
+[DONE]  Efecto máquina de escribir
+        Otra fuente de texto para el header
+

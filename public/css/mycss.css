@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Nunito+Sans:wght@300&display=swap');
+
+body {
+    background-color: rgb(13, 2, 24);
+    color: rgb(165, 230, 198);
+    font-family: 'Inconsolata', monospace;
+    font-size: x-large;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    background: rgb(20, 3, 35);
+    background: linear-gradient(0deg, rgba(13, 2, 24, 1) 0%, rgba(20, 3, 35, 1) 53%, rgba(48, 13, 82, 1) 100%);
+    font-family: 'Inconsolata', monospace;
+}
+
+.mainText {
+    color: rgb(15, 189, 102);
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: rgb(15, 189, 102);
+    font-weight: bold;
+}
+
+.navbar-brand:visited {
+    color: rgb(15, 189, 102);
+}
+
+.navbar-brand:hover {
+    color: rgb(26, 255, 140);
+}
+
+.my_info {
+    margin-top: 8%;
+}
+
+.skills_info {
+    margin-top: 7.5%;
+}
+
+.projects_info {
+    margin-top: 6%;
+}
+
+.prof_img {
+    max-width: 80%;
+    border: solid 2px transparent;
+    transition: border 0.15s linear;
+}
+
+.bi {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+@media all and (min-width:430px) {
+    nav li+li:before {
+        content: " | ";
+        padding: 0 4px;
+    }
+}
+
+@media all and (min-width:430px) {
+    .dynamic_width {
+        width: 75%;
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 429px) {
+    .dynamic_width {
+        width: 100%;
+    }
+}
+
+.skills_cards_box {
+    background-color: rgb(27, 18, 37);
+    padding: 0.5%;
+}
+
+.border-2 {
+    border-color: rgb(165, 230, 198) !important;
+}
+
+.skills_cards {
+    max-width: 40%;
+}
+
+.skills_cards4 {
+    max-width: 50%; 
+}
+
+.card_anim{
+    animation: fadeIn 4s;
+    animation-delay: 0s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.card {
+    background-color: rgb(27, 18, 37);
+    border: solid 1px rgb(165, 230, 198);
+    padding: 1%;
+}
+
+/* Footer */
+
+.my_footer {
+    background-color: rgb(5, 1, 9);
+    clear: both;
+    position: relative;
+    margin-top: 5%;
+    padding: 2%;
+
+    display: grid;
+    place-items: center;
+}
+
+.footer_text {
+    color: rgb(15, 189, 102);
+}
+
+.footer_animation {
+    border-right: .15em solid rgb(165, 230, 198);
+
+    width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+
+    animation: typing 5s steps(37) 0.5s 1 normal both, blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* Img animation */
+.prof_img:hover {
+    border: solid 2px rgb(15, 189, 102);
+}
