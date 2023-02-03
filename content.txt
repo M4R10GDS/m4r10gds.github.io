@@ -55,8 +55,8 @@ Here is an example to see how the device works:
 -- TODO
 [DONE]  Borde y efecto de iluminación a la imagen de perfil.
 [DONE]  Efecto de aparición skills
-        Efecto hover sobre cada skill -> Nombre de la tecnología y grado de avance
-        Añadir imagen de bootstrap a las skills de front y cambiar de skills_cards a skills_cards4
+[DONE]  Efecto hover sobre cada skill -> Nombre de la tecnología y grado de avance
+[DONE]  Añadir imagen de bootstrap a las skills de front y cambiar de skills_cards a skills_cards4
 [DONE]  Footer con "realizado por []"
         Referenciar los links
 
