@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Josefin+Sans:ital,wght@1,300&family=Nunito+Sans:wght@300&display=swap');
 
 body {
     background-color: rgb(13, 2, 24);
@@ -12,7 +12,16 @@ header {
     top: 0px;
     background: rgb(20, 3, 35);
     background: linear-gradient(0deg, rgba(13, 2, 24, 1) 0%, rgba(20, 3, 35, 1) 53%, rgba(48, 13, 82, 1) 100%);
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(15, 189, 102);
+}
+
+a:hover {
+    color: rgb(26, 255, 140);
 }
 
 .mainText {
@@ -53,6 +62,10 @@ header {
 
 .bi {
     font-size: 2rem;
+}
+
+.bi-youtube:hover{
+    color: rgb(250, 105, 89);
 }
 
 ul {
@@ -111,13 +124,21 @@ ul {
     padding: 1%;
 }
 
+.card-title {
+    font-size: x-large;
+}
+
+.card-text {
+    font-size: large;
+}
+
 /* Footer */
 
 .my_footer {
     background-color: rgb(5, 1, 9);
     clear: both;
     position: relative;
-    margin-top: 5%;
+    margin-top: 4%;
     padding: 2%;
 
     display: grid;

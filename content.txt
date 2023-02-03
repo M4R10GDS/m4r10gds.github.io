@@ -58,12 +58,13 @@ Here is an example to see how the device works:
 [DONE]  Efecto hover sobre cada skill -> Nombre de la tecnología y grado de avance
 [DONE]  Añadir imagen de bootstrap a las skills de front y cambiar de skills_cards a skills_cards4
 [DONE]  Footer con "realizado por []"
-        Referenciar los links
+[DONE]  Referenciar los links
 
-        Hacer y subir el video a youtube y referenciarlo.
+[DONE]  Hacer y subir el video a youtube y referenciarlo.
 [DONE]  Hacer que los elementos de la navbar salten al apartado correcto con Jquery.
-        Efecto animado background.
-        Efectos a los links (hover con mas cosas)
+[NO]    Efecto animado background.
+[NO]    Efectos a los links (hover con mas cosas)
 [DONE]  Efecto máquina de escribir
-        Otra fuente de texto para el header
+[DONE]  Otra fuente de texto para el header
+[DONE]  Arreglar cards
 
